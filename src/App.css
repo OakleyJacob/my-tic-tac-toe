@@ -1,5 +1,5 @@
 * {
-  color: white;
+  
 
 }
 
@@ -28,6 +28,10 @@ body {
   align-items: center;
   font-size: 36px;
   background-color: rgb(240, 248, 255, .3);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  
+  
   /* opacity: .3; */
 }
 h1 {
@@ -73,4 +77,140 @@ h1 {
   background-color: rgb(121, 77, 43, 0.6);
   border-radius: 15px;
   padding: 5px;
+  color: aliceblue;
+}
+.icon{
+  height: 80px;
+}
+.iconChoosing{
+  height: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  background-color: rgb(240, 248, 255, .3);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  border: 2px solid black;
+}
+.choosingBoard{
+    display: flex;
+  flex-wrap: wrap;
+  width: 318px;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 14px;
+  align-content: center;
+  justify-content: center;
+}
+.mini{
+  height: 20px
+  
+}
+.sorting{
+  display: block;
+  height:100px;
+  padding: 2%
+  
+}
+.sortingChoosing{
+  display: block;
+  height:150px;
+  margin-bottom: 7%;
+  padding: 2%
+  
+}
+.width{
+  width: 149px;
+  background-color: rgb(240, 248, 255, .3);
+  border: 2px solid black;
+  height: 149px;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+.deathEaterChoosing{
+  display: block;
+  height:100%;
+  padding: 2%;
+  
+  height: 85%;
+}
+.deathEaterChoosing2{
+  display: block;
+  height:100%;
+  padding: 2%;
+  margin: auto;
+  height: 85%;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+.slyth{
+  background-color: rgba(7, 112, 21, 0.6);
+}
+.gryff{
+  background-color: rgba(192, 12, 12, .6);
+
+  
+}
+.turn{
+  width: 250px;
+  padding-top: 2%;
+  padding-left: 2%;
+  margin: 2% auto;
+  background-color: rgb(240, 248, 255, .3);
+  border: 2px solid black;
+  height: 100px;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  font-size: 24px;
+  color: #333333;
+  display: flex;
+  
+}
+.turn p{
+  padding-left: 10%;
+}
+.huff{
+  background-color: rgba(177, 166, 15, .6);
+}
+.raven{
+  background-color: rgba(11, 8, 194, 0.6);
+}
+.text {
+  height: 150px;
+  color: rgb(31, 31, 31);
+  width: 300px;
+  background-color: rgb(240, 248, 255, .3);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  border: 2px solid black;
+  text-align: center;
+  color: #333333;
+  margin: 2% auto;
+  padding: 2%;
+}
+.word{
+  display: contents;
+  color: rgb(32, 32, 32);
+}
+.diff{
+  display: contents;
+  font-size: 15px;
+  color: rgb(32, 32, 32);
+  
+}
+.small{
+  height: 50px;
+  display:inline;
+  padding:2%;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
