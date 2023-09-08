@@ -4,6 +4,10 @@ This is a web game for two players on one device, taking turns. You will have to
 
 When creating a project it is important to think about organization of your code. It is best practice to separate and compartmentalize all the actions in your code. The square UI will be in its own component. App.js controls of all the data in state, renders the other components, and performs the game logic.
 
+### Deployed Link
+
+https://my-tic-tac-toe-navy.vercel.app/
+
 ### 🛠 Resources
 
 - [Tic Tac Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
@@ -19,17 +23,5 @@ When creating a project it is important to think about organization of your code
 - As a user, I can't continue playing the game after the game has been won.
 - As a user, if there are no more squares available, I can see a notice telling me that the game has ended.
 - As a user, I can click on a restart button that will clear the game board.
-
-### 🏔 Stretch Goals
-
-- As a user, I can see a pleasant stylings on the application.
-- As a user, I can see a notification that informs me whether it is currently my partner or my turn.
-- As a user, I can choose my marker from a predetermined list (X, O, a color, an emoji, etc...).
-
-### 👩‍💻 Developer Stretch Goals
-
-- As a developer, I have a well commented application.
-- As a developer, I have well written README file with instructions on how to access my repository.
-- As a developer, my variables are all named semantically.
-- As a developer, I have refactored and efficient code.
-- As a developer, I have my application [deployed as a live website](https://render.com/docs/deploy-create-react-app).
+- As a user, I can select my icon.
+- As a user, I can choose to play alone or against the computer.
