@@ -1,8 +1,7 @@
 # ❌ ⭕️ Tic Tac Toe
 
-This is a web game for two players on one device, taking turns. You will have to use component state to keep track of whose turn it is and which squares have been marked by each player. This project will challenge your knowledge of React but should also be an exercise in creating good user experiences.
+This is a web game for two players on one device, taking turns. Alternatively the user can select one of the single player difficulties to play solo.
 
-When creating a project it is important to think about organization of your code. It is best practice to separate and compartmentalize all the actions in your code. The square UI will be in its own component. App.js controls of all the data in state, renders the other components, and performs the game logic.
 
 ### Deployed Link
 
